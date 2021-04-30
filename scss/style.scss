@@ -1,0 +1,157 @@
+// Imports Fonts
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+// Variables Color
+$white-color: #e8e8e8;
+$black-color: #1a1a1a;
+$red-close: #f54b42;
+
+// Variables Font Sizes
+$font16: 16pt;
+$font-img: 10pt;
+
+// Variables Font Families
+$font-playfair: 'Playfair Display', serif;
+
+// Variables Imgages
+$my-slider: url("../img/movel.jpg");
+
+// Default Style
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-playfair;
+    background-color: $white-color;
+} // Body Default Color
+
+ul {
+    list-style-type: none;
+} // Remove Style Lists
+
+a:link {
+    text-decoration: none;
+} // Remove Underline Links
+
+// Classes
+.menu {
+    z-index: 2;
+    position: fixed;
+    background-color: $black-color;
+    color: $white-color;
+    height: 60px;
+    width: 100%;
+} // Top Of The Page
+
+.menu h1 {
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+} // Logo
+
+.menu a {
+    color: $white-color;
+} // Color Options Menu
+
+.nav-items {
+    vertical-align: center;
+    position: relative;
+    color: $white-color;
+    margin-right: 10px;
+} // Menu Items
+
+.nav-items li {
+    margin-top: 16px;
+    margin-right: 5px;
+    float: right;
+    font-size: $font16;
+} // List Of Items
+
+.nav-items a{
+    color: $white-color;
+    padding: 10px;
+} // Color List Menu
+
+.nav-items a:hover {
+    background-color: $white-color;
+    color: $black-color;
+    transition: .8s;
+} // Style Menu
+
+// Slider Top
+.slider {
+    position: fixed;
+    margin-top: 58px;
+    padding: 0;
+    height: 160px;
+    background: linear-gradient(to bottom, $black-color 20%, $white-color 100%);
+} // Style Slider
+
+.slider img {
+    z-index: -1;
+    height: inherit;
+    width: 100%;
+    opacity: .5;
+} // Image Style
+
+.slider h2 {
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 38.8%;
+    right: 34%;
+    color: $white-color;
+} // Style Title
+
+// Body Page Sections
+.body-section {
+    position: absolute;
+    margin: 240px 0px 0px 0px;
+    padding: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+} // Container Body Creator And Social Media
+
+// Left Section Center Body
+.region-left {
+    border-bottom: solid 1px $black-color;
+    color: $black-color;
+    margin-left: 20px;
+    padding: 0;
+    padding-bottom: 10px;
+    width: 62%;
+    font-size: $font-img;
+} // Style Default Section Left
+
+.region-left img {
+    float: left;
+    width: 80px;
+    border-radius: 100px;
+    border: solid 2px $black-color;
+} // Image Profile
+
+.region-left div {
+    float: left;
+    margin: 27px 0 0 10px;
+} // Information Image Profile
+
+// Right Section Center Body
+.social-media {
+    border-bottom: solid 1px $black-color;
+    padding: 0;
+    width: 34.9%;
+}
+
+.social-media .redes {
+    margin-top: 2px;
+    float: right;
+    display: flexbox;
+    font-size: 29px;
+} // Style Icons Social Media
+
+.social-media a {
+    color: $black-color;
+} // Color Icons
