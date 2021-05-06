@@ -1,5 +1,50 @@
 @media screen and (max-width: 714px) {
+  .slider {
+    height: 160px;
+  }
+
+  .slider img {
+    width: 100%;
+  }
+
+  .body-section {
+    margin: 240px 0px 0px 0px;
+  }
+
   .social-media {
     width: 31.5%;
+  }
+
+  .content, .content-ig {
+    margin-top: 360px;
+    height: 860px;
+  }
+
+  .showcase {
+    grid-template-columns: 322px 322px;
+    grid-template-rows: 380px;
+    margin-left: 0;
+  }
+
+  .block-info {
+    height: 340px;
+    margin-left: 20px;
+  }
+
+  .block-info img {
+    width: 240px;
+    height: 240px;
+  }
+
+  .block-info p {
+    font-size: 11pt;
+  }
+
+  .block-info a {
+    font-size: 11pt;
+  }
+
+  .content-ig {
+    margin-top: 1200px;
   }
 }/*# sourceMappingURL=media.css.map */

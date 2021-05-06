@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-* {
+*, .social-media, .region-left, .body-section, .slider {
   margin: 0;
   padding: 0;
 }
@@ -62,17 +62,20 @@ a:link {
 }
 
 .slider {
-  position: fixed;
+  position: absolute;
   margin-top: 58px;
-  padding: 0;
-  height: 160px;
-  background: linear-gradient(to bottom, #1a1a1a 20%, #e8e8e8 100%);
+  height: 240px;
+  background: linear-gradient(to bottom, #1a1a1a 30%, #e8e8e8 100%);
 }
 
 .slider img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: -1;
   height: inherit;
-  width: 100%;
+  max-width: 700px;
+  margin: auto;
   opacity: 0.5;
 }
 
@@ -87,8 +90,7 @@ a:link {
 
 .body-section {
   position: absolute;
-  margin: 240px 0px 0px 0px;
-  padding: 0;
+  margin: 320px 0px 0px 0px;
   right: 0;
   left: 0;
   width: 100%;
@@ -98,7 +100,6 @@ a:link {
   border-bottom: solid 1px #1a1a1a;
   color: #1a1a1a;
   margin-left: 20px;
-  padding: 0;
   padding-bottom: 10px;
   width: 62%;
   font-size: 10pt;
@@ -118,7 +119,6 @@ a:link {
 
 .social-media {
   border-bottom: solid 1px #1a1a1a;
-  padding: 0;
   width: 34.9%;
 }
 
@@ -131,4 +131,67 @@ a:link {
 
 .social-media a {
   color: #1a1a1a;
+}
+
+.content, .content-ig {
+  background-color: #1a1a1a;
+  position: absolute;
+  margin-top: 440px;
+  place-items: center;
+  width: 100%;
+  height: 680px;
+}
+
+.content h4, .content-ig h4 {
+  font-size: 20pt;
+  color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 8px 15px 8px;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 400px;
+  margin-left: 38px;
+}
+
+.block-info {
+  text-align: center;
+  background-color: #e8e8e8;
+  margin-left: 60px;
+}
+
+.block-info h5 {
+  font-size: 16pt;
+  padding: 8px;
+}
+
+.block-info img {
+  width: 280px;
+  height: 280px;
+}
+
+.block-info a {
+  color: #c25c5c;
+}
+
+.content-ig {
+  background-color: #e8e8e8;
+  margin-top: 1080px;
+}
+
+.content-ig h4 {
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 8px 15px 8px;
+}
+
+.content-ig .block-info {
+  background-color: #1a1a1a;
+  color: #e8e8e8;
 }/*# sourceMappingURL=style.css.map */

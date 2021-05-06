@@ -1,5 +1,61 @@
+// Variables To Font Size
+$font-desc: 11pt;
+
+// Style For Mobile Devices
 @media screen and (max-width: 714px) {
+    // Slider Top
+    .slider {
+        height: 160px;
+    } // Style Slider
+
+    .slider img {
+        width: 100%;
+    } // Image Style
+
+    // Body Page Sections
+    .body-section {
+        margin: 240px 0px 0px 0px;
+    } // Container Body Creator And Social Media
+
+    // Right Section Center Body
     .social-media {
         width: 31.5%;
-    }
+    } // Position and Proportion Icons
+
+    // Middle Content YouTube
+    .content {
+        margin-top: 360px;
+        height: 860px;
+    } // The Black Area of The Content
+    
+    .showcase {
+        grid-template-columns: 322px 322px;
+        grid-template-rows: 380px;
+        margin-left: 0;
+    } // Elements That Compose The Grid
+
+    // Change Block Info
+    .block-info {
+        height: 340px;
+        margin-left: 20px;
+    } // The Content Inside Content Area
+
+    .block-info img {
+        width: 240px;
+        height: 240px;
+    } // Image Block Style
+
+    .block-info p {
+        font-size: $font-desc;
+    } // Description Images
+
+    .block-info a {
+        font-size: $font-desc;
+    } // Description Images
+
+    // Middle Content Instagram
+    .content-ig {
+        @extend .content;
+        margin-top: 1200px;
+    } // Area of The Content Instagram
 }
