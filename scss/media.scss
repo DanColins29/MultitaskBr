@@ -1,5 +1,22 @@
 // Variables To Font Size
 $font-desc: 11pt;
+$font-creator: 10pt;
+$font-menu: 10pt;
+
+// Mixins
+@mixin central-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} // Align Items At Center
+
+@mixin bordered-bottom($color: $black-color, $thick: 1px) {
+    border-bottom: solid $thick $color;
+} // Borders Bottom
+
+@mixin text-center {
+    text-align: center;
+}
 
 // Style For Mobile Devices
 @media screen and (max-width: 714px) {
@@ -55,7 +72,52 @@ $font-desc: 11pt;
 
     // Middle Content Instagram
     .content-ig {
-        @extend .content;
         margin-top: 1200px;
+    } // Area of The Content Instagram
+}
+
+@media screen and (max-width: 500px) {
+    .menu {
+        font-size: $font-menu;
+        height: 60px;
+    } // Top Of The Page
+
+    .nav-items {
+        display: none;
+    } // Menu Items
+
+    .region-left {
+        margin-left: 16px;
+    } // Style Default Section Left
+    
+    .region-left img {
+        width: 60px;
+    } // Image Profile
+
+    .region-left div {
+        font-size: $font-creator;
+        margin: 16px 0 0 5px;
+    } // Information Image Profile
+
+    // Middle Content YouTube
+    .content {
+        margin-top: 330px;
+        height: 1508px;
+    } // The Black Area of The Content
+
+    .showcase {
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 360px 360px 360px 360px;
+        margin-left: 38px;
+    } // Elements That Compose The Grid
+
+    .block-info {
+        margin-left: 30px;
+    } // The Content Inside Content Area
+
+    // Middle Content Instagram
+    .content-ig {
+        margin-top: 1838px;
     } // Area of The Content Instagram
 }

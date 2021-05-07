@@ -15,7 +15,7 @@
     width: 31.5%;
   }
 
-  .content, .content-ig {
+  .content {
     margin-top: 360px;
     height: 860px;
   }
@@ -46,5 +46,48 @@
 
   .content-ig {
     margin-top: 1200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu {
+    font-size: 10pt;
+    height: 60px;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .region-left {
+    margin-left: 16px;
+  }
+
+  .region-left img {
+    width: 60px;
+  }
+
+  .region-left div {
+    font-size: 10pt;
+    margin: 16px 0 0 5px;
+  }
+
+  .content {
+    margin-top: 330px;
+    height: 1508px;
+  }
+
+  .showcase {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 360px 360px 360px 360px;
+    margin-left: 38px;
+  }
+
+  .block-info {
+    margin-left: 30px;
+  }
+
+  .content-ig {
+    margin-top: 1838px;
   }
 }/*# sourceMappingURL=media.css.map */

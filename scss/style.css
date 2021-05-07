@@ -123,7 +123,7 @@ a:link {
 }
 
 .social-media .redes {
-  margin-top: 2px;
+  margin-top: 14px;
   float: right;
   display: flexbox;
   font-size: 29px;
@@ -154,7 +154,7 @@ a:link {
 .showcase {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 400px;
+  grid-template-rows: 380px;
   margin-left: 38px;
 }
 

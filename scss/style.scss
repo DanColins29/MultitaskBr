@@ -168,7 +168,7 @@ a:link {
 } // Position and Proportion Icons
 
 .social-media .redes {
-    margin-top: 2px;
+    margin-top: 14px;
     float: right;
     display: flexbox;
     font-size: 29px;
@@ -198,7 +198,7 @@ a:link {
 .showcase {
     display: grid;
     grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 400px;
+    grid-template-rows: 380px;
     margin-left: 38px;
 } // Elements That Compose The Grid
 
@@ -233,9 +233,9 @@ a:link {
     color: $black-color;
     @include central-position;
     padding: 15px 8px 15px 8px;
-} // 
+} // Title Content
 
 .content-ig .block-info {
     background-color: $black-color;
     color: $white-color;
-}
+} // The Content Inside Content Area Instagram
