@@ -117,6 +117,10 @@ a:link {
   margin: 27px 0 0 10px;
 }
 
+.region-left a {
+  color: #1a1a1a;
+}
+
 .social-media {
   border-bottom: solid 1px #1a1a1a;
   width: 34.9%;

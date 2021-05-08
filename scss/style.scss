@@ -160,6 +160,10 @@ a:link {
     margin: 27px 0 0 10px;
 } // Information Image Profile
 
+.region-left a {
+    color: $black-color;
+} // Color Link Name Creator
+
 // Right Section Center Body
 .social-media {
     @include bordered-bottom;

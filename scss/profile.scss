@@ -1,0 +1,40 @@
+// Mixins
+@mixin allpadding {
+    padding: 5px;
+}
+// Variables Color
+$white-color: #e8e8e8;
+$black-color: #1a1a1a;
+$alert-color: #c25c5c;
+
+// Style Default
+* {
+    background-color: $white-color;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    @include allpadding();
+}
+
+.header h2 {
+    background-color: $black-color;
+    color: $white-color;
+    text-align: center;
+    @include allpadding();
+}
+
+.header h4 {
+    @include allpadding();
+}
+
+.projects h2 {
+    @include allpadding();
+    text-align: center;
+}
+
+.projects h4 {
+    @include allpadding();
+}
